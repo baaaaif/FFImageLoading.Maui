@@ -207,7 +207,7 @@ namespace FFImageLoading.Maui.Platform
 				if (element == null || _isDisposed)
 					return;
 
-				((IVisualElementController)element).InvalidateMeasure(Microsoft.Maui.Controls.Internals.InvalidationTrigger.MeasureChanged);
+				//((IVisualElementController)element).InvalidateMeasure(Microsoft.Maui.Controls.Internals.InvalidationTrigger.MeasureChanged);
 
 				if (!isLoading)
 					element.SetIsLoading(isLoading);
